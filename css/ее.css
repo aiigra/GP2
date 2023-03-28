@@ -1,0 +1,83 @@
+.main-menu nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.third-header-bg .navbar-wrap ul li > .submenu {
+    border: 1px solid #ee551945;
+    background: #1c1f26;
+}
+.navbar-wrap ul li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform:scale(1);
+}
+.navbar-wrap ul li > .submenu {
+    position: absolute;
+    z-index: 9;
+    background-color: #fff;
+    border-radius: 0;
+    border: none;
+    -webkit-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+    box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    opacity: 0;
+    padding: 18px 0;
+    right: 0;
+    top: 100%;
+    visibility: hidden;
+    width: 100%;
+    border: 1px solid #3a2746;
+    background: #1c1421;
+    box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);
+    margin: 0 auto;
+    border-radius: 2px;
+    transform: scale(1 , 0);
+    transform-origin: 0 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    white-space: nowrap; /* добавлено свойство */
+}
+
+.navbar-wrap ul li > .submenu li {
+    margin-left: 0;
+    text-align: left;
+    display: inline;
+}
+
+.navbar-wrap ul li > .submenu li a {
+    padding: 0 10px 0 25px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-wrap ul li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.navbar-wrap ul li > .submenu li a::before,
+.navbar-wrap ul li > .submenu li a::after {
+    display: none;
+}
+
+.third-header-bg .navbar-wrap ul li > .submenu {
+    border: 1px solid #ee551945;
+    background: #1c1f26;
+}
